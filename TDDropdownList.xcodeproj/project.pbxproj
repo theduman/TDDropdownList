@@ -419,6 +419,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 33E68CD9YA;
 				INFOPLIST_FILE = TDDropdownList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.theduman.TDDropdownList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -432,6 +433,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 33E68CD9YA;
 				INFOPLIST_FILE = TDDropdownList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.theduman.TDDropdownList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -516,6 +518,7 @@
 				4A066B8D1E2F577900B8E9F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4A066B8E1E2F577900B8E9F8 /* Build configuration list for PBXNativeTarget "TDDropdownListTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +527,7 @@
 				4A066B901E2F577900B8E9F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4A066B911E2F577900B8E9F8 /* Build configuration list for PBXNativeTarget "TDDropdownListUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +536,7 @@
 				4A066B931E2F577900B8E9F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
