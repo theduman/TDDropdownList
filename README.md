@@ -17,7 +17,7 @@ import UIKit
 import TDDropdownList
 
 class ViewController: UIViewController , TDDropdownListDelegate {
-    
+
 let list = TDDropdownList(frame: CGRect(x:60 , y : 100 , width: 200 , height: 50))
 override func viewDidLoad() {
     list.initialize(data: ["Github","Theduman","Dropdown","List"])
@@ -37,7 +37,7 @@ func listTapped(sender: UIButton) {
 }
 }
 ```    
-    
+
 You need to conform TDDropdownListDelegate to get the selected item of dropdown list.
 
 Pass the string array to `initialize()` function that you want to show.
@@ -48,9 +48,9 @@ initialize(data: [String],selectedItemColor: UIColor = UIColor(red:0.74, green:0
 ```
 In the `initialize()` function you can customize the UI of the library.
 
-You can; 
+You can;
 
- * Change the background color of selected item using `selectedItemColor: UIColor` parameter 
+ * Change the background color of selected item using `selectedItemColor: UIColor` parameter
  * Change the background color of extended ites using `itemColor:UIColor` parameter
  * Change the text color using `textColor: UIColor`
  * Change the placeholder of the selected item for the first time running using `selectedItemPlaceholder:String`.You can also provide Unicode characters.
