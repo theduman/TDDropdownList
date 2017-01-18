@@ -23,7 +23,7 @@ open class TDDropdownList: UIView {
     var selectedItem = UIButton(frame: CGRect(x: 0, y: 0, width: 0, height: 0))
     var delegate: TDDropdownListDelegate?
     var animationTimer: Double = Double()
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
         self.itemWidth = frame.width
         self.itemHeight = frame.height
