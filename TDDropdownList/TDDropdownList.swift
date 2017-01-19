@@ -9,7 +9,7 @@
 import UIKit
 
 
-public protocol TDDropdownListDelegate {
+@objc public protocol TDDropdownListDelegate {
     func listTapped(sender: UIButton)
 }
 
