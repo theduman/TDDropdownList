@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'TDDropdownList'
-  s.version          = '1.0.4'
+  s.version          = '1.0.5'
   s.summary          = 'Easy to use, customizable dropdown list for ios.Written in swift3'
 
   s.description      = <<-DESC
