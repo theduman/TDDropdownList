@@ -95,7 +95,7 @@ open class TDDropdownList: UIView {
         isActive = true
         return
     }
-    func listTapped(sender: UIButton) {
+    open func listTapped(sender: UIButton) {
         activate(sender: sender)
         delegate?.listTapped(sender: sender)
     }
